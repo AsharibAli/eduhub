@@ -30,21 +30,21 @@ export default function Home() {
       description:
         "A Smart AI assistant that helps you to learn and build your educational dApps on EduChain.",
       buttonText: "Start Chatting",
-      link: "https://example.com/verify-identities",
+      link: "https://educhaingpt.vercel.app/",
     },
     {
       title: "EduKit",
       description:
-        "A starter-kit featuring NextJS & NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
+        "A starter-kit featuring React & NextJS and Vue &NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
       buttonText: "Start Building",
-      link: "https://example.com/sign-documents",
+      link: "https://ced.asharib.xyz/",
     },
     {
       title: "EduBox",
       description:
-        "A no-code tool to deploy your Tokens and NFTs with one click on EduChain.",
+        "A no-code tool to configure and deploy your Tokens and NFTs with one click on EduChain.",
       buttonText: "Start Launching",
-      link: "https://example.com/manage-attestations",
+      link: "https://example.com/coming-soon",
     },
   ];
 
@@ -72,21 +72,21 @@ export default function Home() {
         <div className="text-3xl font-bold text-teal-500">EduHub</div>
         <div className="flex space-x-6">
           <Link
-            href="#"
+            href="https://x.com"
             className="text-white hover:text-teal-500 transition-colors"
           >
             <Twitter className="w-7 h-7" />
             <span className="sr-only">Twitter</span>
           </Link>
           <Link
-            href="#"
+            href="https://github.com"
             className="text-white hover:text-teal-500 transition-colors"
           >
             <Github className="w-7 h-7" />
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            href="#"
+            href="https://telegram.org/"
             className="text-white hover:text-teal-500 transition-colors"
           >
             <MessageCircleCode className="w-7 h-7" />
@@ -106,7 +106,7 @@ export default function Home() {
           can quickly ship your awesome educational dApps on-chain.
         </p>
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-20">
-          <Link href="https://edugpt.example.com" passHref>
+          <Link href="https://example.com" passHref>
             <Button
               size="lg"
               className="bg-teal-500 hover:bg-teal-600 text-black font-semibold px-10 py-6 text-lg"
@@ -114,7 +114,7 @@ export default function Home() {
               Try EduGPT
             </Button>
           </Link>
-          <Link href="https://edukit.example.com" passHref>
+          <Link href="https://example.com" passHref>
             <Button
               size="lg"
               variant="outline"
@@ -186,10 +186,7 @@ export default function Home() {
         </div>
 
         {/* Learn more button */}
-        <Link
-          href="https://gitbook.com/book/open-campus-incubator/educhain-docs/details"
-          passHref
-        >
+        <Link href="https://example.com" passHref>
           <Button
             size="lg"
             className="bg-teal-500 hover:bg-teal-600 text-black font-semibold px-10 py-6 text-lg"
