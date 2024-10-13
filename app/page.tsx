@@ -30,20 +30,20 @@ export default function Home() {
       description:
         "A Smart AI assistant that helps you to learn and build your educational dApps on EduChain.",
       buttonText: "Start Chatting",
-      link: "https://educhaingpt.vercel.app/",
+      link: "https://ai.eduhub.dev/",
     },
     {
       title: "EduKit",
       description:
         "A starter-kit featuring React & NextJS and Vue &NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
       buttonText: "Start Building",
-      link: "https://ced.asharib.xyz/",
+      link: "https://kit.eduhub.dev/",
     },
     {
       title: "EduBox",
       description:
         "A no-code tool to configure and deploy your Tokens and NFTs with one click on EduChain.",
-      buttonText: "Start Launching",
+      buttonText: "Coming Soon",
       link: "https://example.com/coming-soon",
     },
   ];
@@ -72,22 +72,28 @@ export default function Home() {
         <div className="text-3xl font-bold text-teal-500">EduHub</div>
         <div className="flex space-x-6">
           <Link
-            href="https://x.com"
+            href="https://x.com/eduhub__"
             className="text-white hover:text-teal-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Twitter className="w-7 h-7" />
             <span className="sr-only">Twitter</span>
           </Link>
           <Link
-            href="https://github.com"
+            href="https://github.com/EduHub-dev"
             className="text-white hover:text-teal-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Github className="w-7 h-7" />
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            href="https://telegram.org/"
+            href="https://t.me/+2LHHeOdkZvJmZWJk"
             className="text-white hover:text-teal-500 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <MessageCircleCode className="w-7 h-7" />
             <span className="sr-only">Telegram</span>
@@ -106,15 +112,25 @@ export default function Home() {
           can quickly ship your awesome educational dApps on-chain.
         </p>
         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-20">
-          <Link href="https://example.com" passHref>
+          <Link
+            href="https://ai.eduhub.dev/"
+            passHref
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               className="bg-teal-500 hover:bg-teal-600 text-black font-semibold px-10 py-6 text-lg"
             >
-              Try EduGPT
+              Try EduChainGPT
             </Button>
           </Link>
-          <Link href="https://example.com" passHref>
+          <Link
+            href="https://docs.eduhub.dev/"
+            passHref
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               variant="outline"
@@ -178,6 +194,7 @@ export default function Home() {
             <a
               href="https://oci.opencampus.xyz/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-400 font-semibold text-4xl hover:text-teal-500 transition-colors"
             >
               Open Campus Incubar
@@ -186,23 +203,33 @@ export default function Home() {
         </div>
 
         {/* Learn more button */}
-        <Link href="https://example.com" passHref>
+        <Link
+          href="https://dorahacks.io/buidl/14599"
+          passHref
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button
             size="lg"
             className="bg-teal-500 hover:bg-teal-600 text-black font-semibold px-10 py-6 text-lg"
           >
             <BookOpen className="mr-3 h-6 w-6" />
-            Learn more on GitBook
+            1x Hackathon Winner
           </Button>
         </Link>
       </main>
 
       {/* Footer */}
-      <footer className="absolute bottom-0 left-0 right-0 py-8 bg-black/80 backdrop-blur-sm">
+      <footer className="fixed py-6 bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 text-center">
           <div className="text-gray-400 text-lg">
             Build with 💚 by{" "}
-            <a href="" target="_blank" className="text-teal-500">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-500 hover:underline"
+            >
               Asharib Ali
             </a>
           </div>
