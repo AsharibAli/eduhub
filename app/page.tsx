@@ -220,7 +220,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="fixed py-6 bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm">
+      <footer className="absolute py-6 bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 text-center">
           <div className="text-gray-400 text-lg">
             Build with 💚 by{" "}
