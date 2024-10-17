@@ -197,7 +197,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-gray-400 font-semibold text-4xl hover:text-teal-500 transition-colors"
             >
-              Open Campus Incubar
+              Open Campus Incubator
             </a>
           </div>
         </div>
