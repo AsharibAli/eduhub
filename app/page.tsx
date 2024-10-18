@@ -43,8 +43,8 @@ export default function Home() {
       title: "EduBox",
       description:
         "A no-code tool to configure and deploy your Tokens and NFTs with one click on EduChain.",
-      buttonText: "Coming Soon",
-      link: "https://example.com/coming-soon",
+      buttonText: "Start Deploying",
+      link: "https://box.eduhub.dev/",
     },
   ];
 
