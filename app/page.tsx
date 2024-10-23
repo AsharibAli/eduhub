@@ -35,7 +35,7 @@ export default function Home() {
     {
       title: "EduKit",
       description:
-        "A starter-kit featuring React & NextJS and Vue &NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
+        "A starter-kit featuring React & NextJS and Vue & NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
       buttonText: "Start Building",
       link: "https://kit.eduhub.dev/",
     },
