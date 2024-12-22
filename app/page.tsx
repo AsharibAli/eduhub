@@ -223,7 +223,7 @@ export default function Home() {
       <footer className="absolute py-6 bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 text-center">
           <div className="text-gray-400 text-lg">
-            Copyright EduHub.{" "}
+            © 2024 EduHub.{" "}
             <a
               href="#"
               target="_blank"
