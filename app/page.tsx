@@ -26,16 +26,16 @@ export default function Home() {
 
   const cards = [
     {
-      title: "EduChainGPT",
+      title: "EduGPT",
       description:
-        "A Smart AI assistant that helps you to learn and build your educational dApps on EduChain.",
+        "The First AI Blockchain Explorer for EduChain Ecosystem and the Smart Assistant that helps you to learn and build your dApps on EduChain.",
       buttonText: "Start Chatting",
       link: "https://ai.eduhub.dev/",
     },
     {
       title: "EduKit",
       description:
-        "A starter-kit featuring React & NextJS and Vue & NuxtJS with Hardhat and Foundry for Building dApps on EduChain.",
+        "A starter-kit featuring React & NextJS and Vue & NuxtJS with Hardhat, Foundry & OCID for Building dApps on EduChain.",
       buttonText: "Start Building",
       link: "https://kit.eduhub.dev/",
     },
@@ -122,7 +122,7 @@ export default function Home() {
               size="lg"
               className="bg-teal-500 hover:bg-teal-600 text-black font-semibold px-10 py-6 text-lg"
             >
-              Try EduChainGPT
+              Try EduGPT
             </Button>
           </Link>
           <Link
@@ -223,14 +223,14 @@ export default function Home() {
       <footer className="absolute py-6 bottom-0 left-0 right-0 bg-black/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 text-center">
           <div className="text-gray-400 text-lg">
-            Build with 💚 by{" "}
+            Copyright EduHub.{" "}
             <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-teal-500 hover:underline"
             >
-              Asharib Ali
+              All rights reserved.
             </a>
           </div>
         </div>
